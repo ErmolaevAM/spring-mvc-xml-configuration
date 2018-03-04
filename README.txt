@@ -2,15 +2,8 @@
 2) Add following content to pom.xml:
     <properties>
         <spring.version>5.0.0.RELEASE</spring.version>
-        <javax.servlet>3.1.0</javax.servlet>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>${javax.servlet}</version>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
