@@ -13,4 +13,10 @@
         <property name = "suffix" value = ".jsp" />
     </bean>
 
+    <bean id="viewController" class="com.spring.mvc.controller.ViewController">
+        <property name="logService" ref="logServiceImpl"/>
+    </bean>
+
+    <bean id="logServiceImpl" class="com.spring.mvc.service.impl.LogServiceImpl"/>
+
 </beans>
