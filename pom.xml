@@ -11,6 +11,8 @@
 
     <properties>
         <spring.version>5.0.0.RELEASE</spring.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -36,25 +38,19 @@
     </dependencies>
 
     <build>
+        <finalName>mvc</finalName>
         <plugins>
-           <!-- <plugin>
-                <groupid></groupId>
-                <artifactid>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
                 <configuration>
-                    <port>8888</port>
-                    <path>/</path>
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupid>org.apache.maven.plugins</groupId>
-                <artifactid>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>-->
         </plugins>
     </build>
+
 
 </project>

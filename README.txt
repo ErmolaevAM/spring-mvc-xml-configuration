@@ -25,3 +25,4 @@
 5) Configure web.xml (define DispatcerServlet), and [servlet-name]-servlet.xml (define InternalResourceViewResolver suffix and prefix, and component-scan path)
 6) Create class Controller;
 7) Run application with Tomcat;
+7.1) Download Tomcat, install Smart Tomcat plugin, configure, add goal after build.
